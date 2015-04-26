@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF0B9C201AB94CC300A38372 /* SecondInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0B9C1F1AB94CC300A38372 /* SecondInterfaceController.m */; };
+		FFA3EFEB1ABAB89500A82371 /* ThirdInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA3EFEA1ABAB89500A82371 /* ThirdInterfaceController.m */; };
+		FFD05BF01AAD8A700075B753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD05BEF1AAD8A700075B753 /* main.m */; };
+		FFD05BF31AAD8A700075B753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD05BF21AAD8A700075B753 /* AppDelegate.m */; };
+		FFD05BF61AAD8A700075B753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD05BF51AAD8A700075B753 /* ViewController.m */; };
+		FFD05BF91AAD8A700075B753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD05BF71AAD8A700075B753 /* Main.storyboard */; };
+		FFD05BFB1AAD8A700075B753 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD05BFA1AAD8A700075B753 /* Images.xcassets */; };
+		FFD05BFE1AAD8A700075B753 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD05BFC1AAD8A700075B753 /* LaunchScreen.xib */; };
+		FFD05C0A1AAD8A700075B753 /* PushNaviTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD05C091AAD8A700075B753 /* PushNaviTests.m */; };
+		FFD05C1D1AAD8A7C0075B753 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD05C1C1AAD8A7C0075B753 /* InterfaceController.m */; };
+		FFD05C1F1AAD8A7C0075B753 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD05C1E1AAD8A7C0075B753 /* Images.xcassets */; };
+		FFD05C231AAD8A7C0075B753 /* PushNavi WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FFD05C221AAD8A7C0075B753 /* PushNavi WatchKit App.app */; };
+		FFD05C2B1AAD8A7C0075B753 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD05C291AAD8A7C0075B753 /* Interface.storyboard */; };
+		FFD05C2D1AAD8A7C0075B753 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD05C2C1AAD8A7C0075B753 /* Images.xcassets */; };
+		FFD05C301AAD8A7C0075B753 /* PushNavi WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FFD05C171AAD8A7C0075B753 /* PushNavi WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFD05C041AAD8A700075B753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD05BE21AAD8A700075B753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD05BE91AAD8A700075B753;
+			remoteInfo = PushNavi;
+		};
+		FFD05C241AAD8A7C0075B753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD05BE21AAD8A700075B753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD05C211AAD8A7C0075B753;
+			remoteInfo = "PushNavi WatchKit App";
+		};
+		FFD05C2E1AAD8A7C0075B753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD05BE21AAD8A700075B753 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD05C161AAD8A7C0075B753;
+			remoteInfo = "PushNavi WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFD05C371AAD8A7C0075B753 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FFD05C301AAD8A7C0075B753 /* PushNavi WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF0B9C1E1AB94CC300A38372 /* SecondInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondInterfaceController.h; path = "PushNavi WatchKit Extension/SecondInterfaceController.h"; sourceTree = SOURCE_ROOT; };
+		FF0B9C1F1AB94CC300A38372 /* SecondInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondInterfaceController.m; path = "PushNavi WatchKit Extension/SecondInterfaceController.m"; sourceTree = SOURCE_ROOT; };
+		FFA3EFE91ABAB89500A82371 /* ThirdInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdInterfaceController.h; sourceTree = "<group>"; };
+		FFA3EFEA1ABAB89500A82371 /* ThirdInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdInterfaceController.m; sourceTree = "<group>"; };
+		FFD05BEA1AAD8A700075B753 /* PushNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD05BEE1AAD8A700075B753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD05BEF1AAD8A700075B753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFD05BF11AAD8A700075B753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFD05BF21AAD8A700075B753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFD05BF41AAD8A700075B753 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFD05BF51AAD8A700075B753 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFD05BF81AAD8A700075B753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFD05BFA1AAD8A700075B753 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFD05BFD1AAD8A700075B753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFD05C031AAD8A700075B753 /* PushNaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD05C081AAD8A700075B753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD05C091AAD8A700075B753 /* PushNaviTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNaviTests.m; sourceTree = "<group>"; };
+		FFD05C171AAD8A7C0075B753 /* PushNavi WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PushNavi WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD05C1A1AAD8A7C0075B753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD05C1B1AAD8A7C0075B753 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		FFD05C1C1AAD8A7C0075B753 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		FFD05C1E1AAD8A7C0075B753 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFD05C221AAD8A7C0075B753 /* PushNavi WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PushNavi WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD05C281AAD8A7C0075B753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD05C2A1AAD8A7C0075B753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FFD05C2C1AAD8A7C0075B753 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD05BE71AAD8A700075B753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD05C001AAD8A700075B753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD05C141AAD8A7C0075B753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFD05BE11AAD8A700075B753 = {
+			isa = PBXGroup;
+			children = (
+				FFD05BEC1AAD8A700075B753 /* PushNavi */,
+				FFD05C061AAD8A700075B753 /* PushNaviTests */,
+				FFD05C181AAD8A7C0075B753 /* PushNavi WatchKit Extension */,
+				FFD05C261AAD8A7C0075B753 /* PushNavi WatchKit App */,
+				FFD05BEB1AAD8A700075B753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD05BEB1AAD8A700075B753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05BEA1AAD8A700075B753 /* PushNavi.app */,
+				FFD05C031AAD8A700075B753 /* PushNaviTests.xctest */,
+				FFD05C171AAD8A7C0075B753 /* PushNavi WatchKit Extension.appex */,
+				FFD05C221AAD8A7C0075B753 /* PushNavi WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD05BEC1AAD8A700075B753 /* PushNavi */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05BF11AAD8A700075B753 /* AppDelegate.h */,
+				FFD05BF21AAD8A700075B753 /* AppDelegate.m */,
+				FFD05BF41AAD8A700075B753 /* ViewController.h */,
+				FFD05BF51AAD8A700075B753 /* ViewController.m */,
+				FFD05BF71AAD8A700075B753 /* Main.storyboard */,
+				FFD05BFA1AAD8A700075B753 /* Images.xcassets */,
+				FFD05BFC1AAD8A700075B753 /* LaunchScreen.xib */,
+				FFD05BED1AAD8A700075B753 /* Supporting Files */,
+			);
+			path = PushNavi;
+			sourceTree = "<group>";
+		};
+		FFD05BED1AAD8A700075B753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05BEE1AAD8A700075B753 /* Info.plist */,
+				FFD05BEF1AAD8A700075B753 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFD05C061AAD8A700075B753 /* PushNaviTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05C091AAD8A700075B753 /* PushNaviTests.m */,
+				FFD05C071AAD8A700075B753 /* Supporting Files */,
+			);
+			path = PushNaviTests;
+			sourceTree = "<group>";
+		};
+		FFD05C071AAD8A700075B753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05C081AAD8A700075B753 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFD05C181AAD8A7C0075B753 /* PushNavi WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05C1B1AAD8A7C0075B753 /* InterfaceController.h */,
+				FFD05C1C1AAD8A7C0075B753 /* InterfaceController.m */,
+				FF0B9C1E1AB94CC300A38372 /* SecondInterfaceController.h */,
+				FF0B9C1F1AB94CC300A38372 /* SecondInterfaceController.m */,
+				FFA3EFE91ABAB89500A82371 /* ThirdInterfaceController.h */,
+				FFA3EFEA1ABAB89500A82371 /* ThirdInterfaceController.m */,
+				FFD05C1E1AAD8A7C0075B753 /* Images.xcassets */,
+				FFD05C191AAD8A7C0075B753 /* Supporting Files */,
+			);
+			path = "PushNavi WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FFD05C191AAD8A7C0075B753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05C1A1AAD8A7C0075B753 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFD05C261AAD8A7C0075B753 /* PushNavi WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05C291AAD8A7C0075B753 /* Interface.storyboard */,
+				FFD05C2C1AAD8A7C0075B753 /* Images.xcassets */,
+				FFD05C271AAD8A7C0075B753 /* Supporting Files */,
+			);
+			path = "PushNavi WatchKit App";
+			sourceTree = "<group>";
+		};
+		FFD05C271AAD8A7C0075B753 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05C281AAD8A7C0075B753 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD05BE91AAD8A700075B753 /* PushNavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD05C0D1AAD8A700075B753 /* Build configuration list for PBXNativeTarget "PushNavi" */;
+			buildPhases = (
+				FFD05BE61AAD8A700075B753 /* Sources */,
+				FFD05BE71AAD8A700075B753 /* Frameworks */,
+				FFD05BE81AAD8A700075B753 /* Resources */,
+				FFD05C371AAD8A7C0075B753 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD05C2F1AAD8A7C0075B753 /* PBXTargetDependency */,
+			);
+			name = PushNavi;
+			productName = PushNavi;
+			productReference = FFD05BEA1AAD8A700075B753 /* PushNavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFD05C021AAD8A700075B753 /* PushNaviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD05C101AAD8A700075B753 /* Build configuration list for PBXNativeTarget "PushNaviTests" */;
+			buildPhases = (
+				FFD05BFF1AAD8A700075B753 /* Sources */,
+				FFD05C001AAD8A700075B753 /* Frameworks */,
+				FFD05C011AAD8A700075B753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD05C051AAD8A700075B753 /* PBXTargetDependency */,
+			);
+			name = PushNaviTests;
+			productName = PushNaviTests;
+			productReference = FFD05C031AAD8A700075B753 /* PushNaviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFD05C161AAD8A7C0075B753 /* PushNavi WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD05C341AAD8A7C0075B753 /* Build configuration list for PBXNativeTarget "PushNavi WatchKit Extension" */;
+			buildPhases = (
+				FFD05C131AAD8A7C0075B753 /* Sources */,
+				FFD05C141AAD8A7C0075B753 /* Frameworks */,
+				FFD05C151AAD8A7C0075B753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD05C251AAD8A7C0075B753 /* PBXTargetDependency */,
+			);
+			name = "PushNavi WatchKit Extension";
+			productName = "PushNavi WatchKit Extension";
+			productReference = FFD05C171AAD8A7C0075B753 /* PushNavi WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FFD05C211AAD8A7C0075B753 /* PushNavi WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD05C311AAD8A7C0075B753 /* Build configuration list for PBXNativeTarget "PushNavi WatchKit App" */;
+			buildPhases = (
+				FFD05C201AAD8A7C0075B753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PushNavi WatchKit App";
+			productName = "PushNavi WatchKit App";
+			productReference = FFD05C221AAD8A7C0075B753 /* PushNavi WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD05BE21AAD8A700075B753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Newton Japan";
+				TargetAttributes = {
+					FFD05BE91AAD8A700075B753 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FFD05C021AAD8A700075B753 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FFD05BE91AAD8A700075B753;
+					};
+					FFD05C161AAD8A7C0075B753 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FFD05C211AAD8A7C0075B753 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FFD05BE51AAD8A700075B753 /* Build configuration list for PBXProject "PushNavi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD05BE11AAD8A700075B753;
+			productRefGroup = FFD05BEB1AAD8A700075B753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD05BE91AAD8A700075B753 /* PushNavi */,
+				FFD05C021AAD8A700075B753 /* PushNaviTests */,
+				FFD05C161AAD8A7C0075B753 /* PushNavi WatchKit Extension */,
+				FFD05C211AAD8A7C0075B753 /* PushNavi WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD05BE81AAD8A700075B753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD05BF91AAD8A700075B753 /* Main.storyboard in Resources */,
+				FFD05BFE1AAD8A700075B753 /* LaunchScreen.xib in Resources */,
+				FFD05BFB1AAD8A700075B753 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD05C011AAD8A700075B753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD05C151AAD8A7C0075B753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD05C231AAD8A7C0075B753 /* PushNavi WatchKit App.app in Resources */,
+				FFD05C1F1AAD8A7C0075B753 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD05C201AAD8A7C0075B753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD05C2B1AAD8A7C0075B753 /* Interface.storyboard in Resources */,
+				FFD05C2D1AAD8A7C0075B753 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD05BE61AAD8A700075B753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD05BF61AAD8A700075B753 /* ViewController.m in Sources */,
+				FFD05BF31AAD8A700075B753 /* AppDelegate.m in Sources */,
+				FFD05BF01AAD8A700075B753 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD05BFF1AAD8A700075B753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD05C0A1AAD8A700075B753 /* PushNaviTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD05C131AAD8A7C0075B753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA3EFEB1ABAB89500A82371 /* ThirdInterfaceController.m in Sources */,
+				FFD05C1D1AAD8A7C0075B753 /* InterfaceController.m in Sources */,
+				FF0B9C201AB94CC300A38372 /* SecondInterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFD05C051AAD8A700075B753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD05BE91AAD8A700075B753 /* PushNavi */;
+			targetProxy = FFD05C041AAD8A700075B753 /* PBXContainerItemProxy */;
+		};
+		FFD05C251AAD8A7C0075B753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD05C211AAD8A7C0075B753 /* PushNavi WatchKit App */;
+			targetProxy = FFD05C241AAD8A7C0075B753 /* PBXContainerItemProxy */;
+		};
+		FFD05C2F1AAD8A7C0075B753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD05C161AAD8A7C0075B753 /* PushNavi WatchKit Extension */;
+			targetProxy = FFD05C2E1AAD8A7C0075B753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFD05BF71AAD8A700075B753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD05BF81AAD8A700075B753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFD05BFC1AAD8A700075B753 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD05BFD1AAD8A700075B753 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FFD05C291AAD8A7C0075B753 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD05C2A1AAD8A7C0075B753 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFD05C0B1AAD8A700075B753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFD05C0C1AAD8A700075B753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD05C0E1AAD8A700075B753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushNavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFD05C0F1AAD8A700075B753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushNavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFD05C111AAD8A700075B753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PushNaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNavi.app/PushNavi";
+			};
+			name = Debug;
+		};
+		FFD05C121AAD8A700075B753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PushNaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNavi.app/PushNavi";
+			};
+			name = Release;
+		};
+		FFD05C321AAD8A7C0075B753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PushNavi_WatchKit_Extension;
+				INFOPLIST_FILE = "PushNavi WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FFD05C331AAD8A7C0075B753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = PushNavi_WatchKit_Extension;
+				INFOPLIST_FILE = "PushNavi WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FFD05C351AAD8A7C0075B753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PushNavi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FFD05C361AAD8A7C0075B753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PushNavi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD05BE51AAD8A700075B753 /* Build configuration list for PBXProject "PushNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD05C0B1AAD8A700075B753 /* Debug */,
+				FFD05C0C1AAD8A700075B753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD05C0D1AAD8A700075B753 /* Build configuration list for PBXNativeTarget "PushNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD05C0E1AAD8A700075B753 /* Debug */,
+				FFD05C0F1AAD8A700075B753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD05C101AAD8A700075B753 /* Build configuration list for PBXNativeTarget "PushNaviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD05C111AAD8A700075B753 /* Debug */,
+				FFD05C121AAD8A700075B753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD05C311AAD8A7C0075B753 /* Build configuration list for PBXNativeTarget "PushNavi WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD05C321AAD8A7C0075B753 /* Debug */,
+				FFD05C331AAD8A7C0075B753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD05C341AAD8A7C0075B753 /* Build configuration list for PBXNativeTarget "PushNavi WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD05C351AAD8A7C0075B753 /* Debug */,
+				FFD05C361AAD8A7C0075B753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFD05BE21AAD8A700075B753 /* Project object */;
+}
